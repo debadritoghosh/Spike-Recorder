@@ -4,7 +4,7 @@
         {
             "label": "Build with Make",
             "type": "shell",
-            "command": "make",
+            "command": "mingw32-make",
             "args": ["VERBOSE=1"],
             "group": {
                 "kind": "build",
@@ -16,7 +16,7 @@
         {
             "label": "Clean with Make",
             "type": "shell",
-            "command": "make",
+            "command": "mingw32-make",
             "args": ["clean"],
             "group": {
                 "kind": "build",
