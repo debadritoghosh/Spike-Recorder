@@ -29,6 +29,7 @@ LIBS = \
 	-lwinmm \
 	-lsetupapi \
 	-ldxguid \
+	-luuid \
 	-lopengl32 \
 	-lglu32 \
 	-lcomdlg32 \
