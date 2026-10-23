@@ -1,723 +1,230 @@
-1792740889 202 - BYB SpikeRecorder started on Fri Oct 23 13:04:49 2026
+1792741549 992 - BYB SpikeRecorder started on Fri Oct 23 13:15:49 2026
 
-1792740889 203 - Texture 'data/ascii.bmp' loaded.
-1792740889 203 - Initializing font...
-1792740892 74 - Initializing libbass...
-1792740892 111 - Start enumerateSerialPortsFriendlyNames
-1792740892 113 - End enumerateSerialPortsFriendlyNames
-1792740892 113 - Player::setSampleRate - Sample rate set OK
-1792740892 205 - RecordingManager::Device - BASS enable 0 device
-1792740892 878 - Player::setSampleRate - Sample rate set OK
-1792740892 878 - Found 2 recording devices.
-1792740892 878 - Loading Resources...
-1792740892 878 - Texture 'data/pause.bmp' loaded.
-1792740892 878 - Texture 'data/pausehigh.bmp' loaded.
-1792740892 878 - Texture 'data/play.bmp' loaded.
-1792740892 878 - Texture 'data/playhigh.bmp' loaded.
-1792740892 878 - Texture 'data/forward.bmp' loaded.
-1792740892 878 - Texture 'data/forwardhigh.bmp' loaded.
-1792740892 878 - Texture 'data/backward.bmp' loaded.
-1792740892 878 - Texture 'data/backwardhigh.bmp' loaded.
-1792740892 878 - Texture 'data/config.bmp' loaded.
-1792740892 878 - Texture 'data/confighigh.bmp' loaded.
-1792740892 878 - Texture 'data/thresh.bmp' loaded.
-1792740892 878 - Texture 'data/threshhigh.bmp' loaded.
-1792740892 878 - Texture 'data/ekg.bmp' loaded.
-1792740892 878 - Texture 'data/ekghigh.bmp' loaded.
-1792740892 878 - Texture 'data/rec.bmp' loaded.
-1792740892 878 - Texture 'data/rechigh.bmp' loaded.
-1792740892 878 - Texture 'data/file.bmp' loaded.
-1792740892 878 - Texture 'data/filehigh.bmp' loaded.
-1792740892 878 - Texture 'data/analysis.bmp' loaded.
-1792740892 878 - Texture 'data/analysishigh.bmp' loaded.
-1792740892 878 - Texture 'data/fft.bmp' loaded.
-1792740892 878 - Texture 'data/ffthigh.bmp' loaded.
-1792740892 878 - Texture 'data/save.bmp' loaded.
-1792740892 878 - Texture 'data/savehigh.bmp' loaded.
-1792740892 878 - Texture 'data/pin.bmp' loaded.
-1792740892 878 - Texture 'data/threshpin.bmp' loaded.
-1792740892 878 - Texture 'data/dropdown.bmp' loaded.
-1792740892 878 - Texture 'data/gainup.bmp' loaded.
-1792740892 878 - Texture 'data/gaindown.bmp' loaded.
-1792740892 878 - Texture 'data/ckboxon.bmp' loaded.
-1792740892 878 - Texture 'data/ckboxoff.bmp' loaded.
-1792740892 878 - Texture 'data/plotview.bmp' loaded.
-1792740892 878 - Texture 'data/plotviewhigh.bmp' loaded.
-1792740892 878 - Texture 'data/plotviewdown.bmp' loaded.
-1792740892 878 - Texture 'data/plotviewdownhigh.bmp' loaded.
-1792740892 878 - Texture 'data/disconnected.bmp' loaded.
-1792740892 878 - Texture 'data/connected-high.bmp' loaded.
-1792740892 878 - Texture 'data/disconnected-high.bmp' loaded.
-1792740892 878 - Texture 'data/connected.bmp' loaded.
-1792740892 878 - Texture 'data/bdisconnected.bmp' loaded.
-1792740892 878 - Texture 'data/bconnected-high.bmp' loaded.
-1792740892 878 - Texture 'data/bdisconnected-high.bmp' loaded.
-1792740892 878 - Texture 'data/bconnected.bmp' loaded.
-1792740892 878 - Texture 'data/update.bmp' loaded.
-1792740892 878 - Texture 'data/update-high.bmp' loaded.
-1792740892 878 - Texture 'data/bupdate.bmp' loaded.
-1792740892 878 - Texture 'data/bupdate-high.bmp' loaded.
-1792740892 878 - Texture 'data/usbcon.bmp' loaded.
-1792740892 878 - Texture 'data/usbconhigh.bmp' loaded.
-1792740892 878 - Texture 'data/usbdiscon.bmp' loaded.
-1792740892 878 - Texture 'data/neuronprocon.bmp' loaded.
-1792740892 878 - Texture 'data/neuronproconhigh.bmp' loaded.
-1792740892 878 - Texture 'data/neuronprodiscon.bmp' loaded.
-1792740892 878 - Texture 'data/emgprocon.bmp' loaded.
-1792740892 878 - Texture 'data/emgproconhigh.bmp' loaded.
-1792740892 878 - Texture 'data/emgprodiscon.bmp' loaded.
-1792740892 878 - Texture 'data/plantcon.bmp' loaded.
-1792740892 878 - Texture 'data/plantconhigh.bmp' loaded.
-1792740892 878 - Texture 'data/plantdiscon.bmp' loaded.
-1792740892 878 - Texture 'data/musclecon.bmp' loaded.
-1792740892 878 - Texture 'data/muscleconhigh.bmp' loaded.
-1792740892 878 - Texture 'data/musclediscon.bmp' loaded.
-1792740892 878 - Texture 'data/neuroncon.bmp' loaded.
-1792740892 878 - Texture 'data/neurondiscon.bmp' loaded.
-1792740892 878 - Texture 'data/heartcon.bmp' loaded.
-1792740892 878 - Texture 'data/heartconhigh.bmp' loaded.
-1792740892 878 - Texture 'data/heartdiscon.bmp' loaded.
-1792740892 878 - Texture 'data/conne1.bmp' loaded.
-1792740892 878 - Texture 'data/conne2.bmp' loaded.
-1792740892 878 - Texture 'data/conne3.bmp' loaded.
-1792740892 878 - Texture 'data/conne4.bmp' loaded.
-1792740892 878 - Texture 'data/conne5.bmp' loaded.
-1792740892 878 - Texture 'data/conne6.bmp' loaded.
-1792740892 878 - Texture 'data/dconne1.bmp' loaded.
-1792740892 878 - Texture 'data/dconne2.bmp' loaded.
-1792740892 878 - Texture 'data/dconne3.bmp' loaded.
-1792740892 878 - Texture 'data/dconne4.bmp' loaded.
-1792740892 878 - Texture 'data/dconne5.bmp' loaded.
-1792740892 878 - Texture 'data/dconne6.bmp' loaded.
-1792740892 878 - Texture 'data/connn1.bmp' loaded.
-1792740892 878 - Texture 'data/connn2.bmp' loaded.
-1792740892 878 - Texture 'data/connn3.bmp' loaded.
-1792740892 878 - Texture 'data/connn4.bmp' loaded.
-1792740892 878 - Texture 'data/connn5.bmp' loaded.
-1792740892 878 - Texture 'data/connn6.bmp' loaded.
-1792740892 878 - Texture 'data/dconnn1.bmp' loaded.
-1792740892 878 - Texture 'data/dconnn2.bmp' loaded.
-1792740892 878 - Texture 'data/dconnn3.bmp' loaded.
-1792740892 878 - Texture 'data/dconnn4.bmp' loaded.
-1792740892 878 - Texture 'data/dconnn5.bmp' loaded.
-1792740892 878 - Texture 'data/dconnn6.bmp' loaded.
-1792740892 878 - Texture 'data/connm1.bmp' loaded.
-1792740892 878 - Texture 'data/connm2.bmp' loaded.
-1792740892 878 - Texture 'data/connm3.bmp' loaded.
-1792740892 878 - Texture 'data/connm4.bmp' loaded.
-1792740892 878 - Texture 'data/connm5.bmp' loaded.
-1792740892 878 - Texture 'data/connm6.bmp' loaded.
-1792740892 878 - Texture 'data/dconnm1.bmp' loaded.
-1792740892 878 - Texture 'data/dconnm2.bmp' loaded.
-1792740892 878 - Texture 'data/dconnm3.bmp' loaded.
-1792740892 878 - Texture 'data/dconnm4.bmp' loaded.
-1792740892 878 - Texture 'data/dconnm5.bmp' loaded.
-1792740892 878 - Texture 'data/dconnm6.bmp' loaded.
-1792740892 878 - Texture 'data/connp1.bmp' loaded.
-1792740892 878 - Texture 'data/connp2.bmp' loaded.
-1792740892 878 - Texture 'data/connp3.bmp' loaded.
-1792740892 878 - Texture 'data/connp4.bmp' loaded.
-1792740892 878 - Texture 'data/connp5.bmp' loaded.
-1792740892 878 - Texture 'data/connp6.bmp' loaded.
-1792740892 878 - Texture 'data/dconnp1.bmp' loaded.
-1792740892 878 - Texture 'data/dconnp2.bmp' loaded.
-1792740892 878 - Texture 'data/dconnp3.bmp' loaded.
-1792740892 878 - Texture 'data/dconnp4.bmp' loaded.
-1792740892 878 - Texture 'data/dconnp5.bmp' loaded.
-1792740892 878 - Texture 'data/dconnp6.bmp' loaded.
-1792740892 878 - Texture 'data/heart.bmp' loaded.
-1792740892 878 - Texture 'data/speaker.bmp' loaded.
-1792740892 878 - Texture 'data/speakeroff.bmp' loaded.
-1792740892 878 - Texture 'data/bncconn.bmp' loaded.
-1792740892 878 - Texture 'data/bncconnhigh.bmp' loaded.
-1792740892 878 - Texture 'data/rtimer.bmp' loaded.
-1792740892 878 - Texture 'data/rtimerhigh.bmp' loaded.
-1792740892 878 - Texture 'data/devbrd.bmp' loaded.
-1792740892 878 - Texture 'data/devbrdhigh.bmp' loaded.
-1792740892 878 - Texture 'data/okbtn.bmp' loaded.
-1792740892 878 - Texture 'data/okbtnhigh.bmp' loaded.
-1792740892 878 - Texture 'data/trigger.bmp' loaded.
-1792740892 878 - Texture 'data/triggerhigh.bmp' loaded.
-1792740892 878 - Texture 'data/e1.bmp' loaded.
-1792740892 878 - Texture 'data/e2.bmp' loaded.
-1792740892 878 - Texture 'data/e3.bmp' loaded.
-1792740892 878 - Texture 'data/e4.bmp' loaded.
-1792740892 878 - Texture 'data/e5.bmp' loaded.
-1792740892 878 - Texture 'data/e6.bmp' loaded.
-1792740892 878 - Texture 'data/e7.bmp' loaded.
-1792740892 878 - Texture 'data/e8.bmp' loaded.
-1792740892 878 - Texture 'data/e9.bmp' loaded.
-1792740892 878 - Texture 'data/e10.bmp' loaded.
-1792740892 878 - Texture 'data/analysiscrossed.bmp' loaded.
-1792740892 878 - Texture 'data/fftcrossed.bmp' loaded.
-1792740892 878 - Texture 'data/threshcrossed.bmp' loaded.
-1792740892 878 - Texture 'data/configcrossed.bmp' loaded.
-1792740892 878 - Texture 'data/calibratebtn-high.bmp' loaded.
-1792740892 878 - Texture 'data/cancel-high.bmp' loaded.
-1792740892 879 - Texture 'data/calibratebtn-normal.bmp' loaded.
-1792740892 879 - Texture 'data/cancel-normal.bmp' loaded.
-1792740892 879 - Texture 'data/okbtn-normal.bmp' loaded.
-1792740892 879 - Texture 'data/okbtn-high.bmp' loaded.
-1792740892 879 - Texture 'data/p300normal.bmp' loaded.
-1792740892 879 - Texture 'data/p300high.bmp' loaded.
-1792740892 879 - Texture 'data/p300selected.bmp' loaded.
-1792740892 879 - Texture 'data/p300audio-normal.bmp' loaded.
-1792740892 879 - Texture 'data/p300audio-high.bmp' loaded.
-1792740892 879 - Texture 'data/p300audio-selected.bmp' loaded.
-1792740892 879 - Texture 'data/preset-neuron.bmp' loaded.
-1792740892 879 - Texture 'data/preset-plant.bmp' loaded.
-1792740892 879 - Texture 'data/preset-eeg.bmp' loaded.
-1792740892 879 - Texture 'data/preset-ecg.bmp' loaded.
-1792740892 879 - Texture 'data/preset-emg.bmp' loaded.
-1792740892 879 - Texture 'data/preset-neuron-high.bmp' loaded.
-1792740892 879 - Texture 'data/preset-plant-high.bmp' loaded.
-1792740892 879 - Texture 'data/preset-eeg-high.bmp' loaded.
-1792740892 879 - Texture 'data/preset-ecg-high.bmp' loaded.
-1792740892 879 - Texture 'data/preset-emg-high.bmp' loaded.
-1792740892 879 - Creating Window...
-1792740893 77 - Starting GUI...
-1792740893 579 - 
+1792741550 4 - Texture 'data/ascii.bmp' loaded.
+1792741550 4 - Initializing font...
+1792741551 722 - Initializing libbass...
+1792741551 747 - Start enumerateSerialPortsFriendlyNames
+1792741551 748 - End enumerateSerialPortsFriendlyNames
+1792741551 748 - Player::setSampleRate - Sample rate set OK
+1792741551 839 - RecordingManager::Device - BASS enable 0 device
+1792741552 947 - Player::setSampleRate - Sample rate set OK
+1792741552 947 - Found 2 recording devices.
+1792741552 947 - Loading Resources...
+1792741552 947 - Texture 'data/pause.bmp' loaded.
+1792741552 947 - Texture 'data/pausehigh.bmp' loaded.
+1792741552 947 - Texture 'data/play.bmp' loaded.
+1792741552 947 - Texture 'data/playhigh.bmp' loaded.
+1792741552 947 - Texture 'data/forward.bmp' loaded.
+1792741552 947 - Texture 'data/forwardhigh.bmp' loaded.
+1792741552 947 - Texture 'data/backward.bmp' loaded.
+1792741552 947 - Texture 'data/backwardhigh.bmp' loaded.
+1792741552 947 - Texture 'data/config.bmp' loaded.
+1792741552 947 - Texture 'data/confighigh.bmp' loaded.
+1792741552 947 - Texture 'data/thresh.bmp' loaded.
+1792741552 947 - Texture 'data/threshhigh.bmp' loaded.
+1792741552 947 - Texture 'data/ekg.bmp' loaded.
+1792741552 947 - Texture 'data/ekghigh.bmp' loaded.
+1792741552 947 - Texture 'data/rec.bmp' loaded.
+1792741552 947 - Texture 'data/rechigh.bmp' loaded.
+1792741552 947 - Texture 'data/file.bmp' loaded.
+1792741552 947 - Texture 'data/filehigh.bmp' loaded.
+1792741552 947 - Texture 'data/analysis.bmp' loaded.
+1792741552 947 - Texture 'data/analysishigh.bmp' loaded.
+1792741552 947 - Texture 'data/fft.bmp' loaded.
+1792741552 947 - Texture 'data/ffthigh.bmp' loaded.
+1792741552 947 - Texture 'data/save.bmp' loaded.
+1792741552 947 - Texture 'data/savehigh.bmp' loaded.
+1792741552 947 - Texture 'data/pin.bmp' loaded.
+1792741552 947 - Texture 'data/threshpin.bmp' loaded.
+1792741552 947 - Texture 'data/dropdown.bmp' loaded.
+1792741552 947 - Texture 'data/gainup.bmp' loaded.
+1792741552 947 - Texture 'data/gaindown.bmp' loaded.
+1792741552 947 - Texture 'data/ckboxon.bmp' loaded.
+1792741552 947 - Texture 'data/ckboxoff.bmp' loaded.
+1792741552 947 - Texture 'data/plotview.bmp' loaded.
+1792741552 947 - Texture 'data/plotviewhigh.bmp' loaded.
+1792741552 947 - Texture 'data/plotviewdown.bmp' loaded.
+1792741552 947 - Texture 'data/plotviewdownhigh.bmp' loaded.
+1792741552 947 - Texture 'data/disconnected.bmp' loaded.
+1792741552 947 - Texture 'data/connected-high.bmp' loaded.
+1792741552 947 - Texture 'data/disconnected-high.bmp' loaded.
+1792741552 947 - Texture 'data/connected.bmp' loaded.
+1792741552 947 - Texture 'data/bdisconnected.bmp' loaded.
+1792741552 947 - Texture 'data/bconnected-high.bmp' loaded.
+1792741552 947 - Texture 'data/bdisconnected-high.bmp' loaded.
+1792741552 947 - Texture 'data/bconnected.bmp' loaded.
+1792741552 947 - Texture 'data/update.bmp' loaded.
+1792741552 947 - Texture 'data/update-high.bmp' loaded.
+1792741552 947 - Texture 'data/bupdate.bmp' loaded.
+1792741552 947 - Texture 'data/bupdate-high.bmp' loaded.
+1792741552 947 - Texture 'data/usbcon.bmp' loaded.
+1792741552 947 - Texture 'data/usbconhigh.bmp' loaded.
+1792741552 947 - Texture 'data/usbdiscon.bmp' loaded.
+1792741552 947 - Texture 'data/neuronprocon.bmp' loaded.
+1792741552 947 - Texture 'data/neuronproconhigh.bmp' loaded.
+1792741552 947 - Texture 'data/neuronprodiscon.bmp' loaded.
+1792741552 947 - Texture 'data/emgprocon.bmp' loaded.
+1792741552 947 - Texture 'data/emgproconhigh.bmp' loaded.
+1792741552 947 - Texture 'data/emgprodiscon.bmp' loaded.
+1792741552 947 - Texture 'data/plantcon.bmp' loaded.
+1792741552 947 - Texture 'data/plantconhigh.bmp' loaded.
+1792741552 947 - Texture 'data/plantdiscon.bmp' loaded.
+1792741552 947 - Texture 'data/musclecon.bmp' loaded.
+1792741552 947 - Texture 'data/muscleconhigh.bmp' loaded.
+1792741552 947 - Texture 'data/musclediscon.bmp' loaded.
+1792741552 947 - Texture 'data/neuroncon.bmp' loaded.
+1792741552 947 - Texture 'data/neurondiscon.bmp' loaded.
+1792741552 947 - Texture 'data/heartcon.bmp' loaded.
+1792741552 947 - Texture 'data/heartconhigh.bmp' loaded.
+1792741552 947 - Texture 'data/heartdiscon.bmp' loaded.
+1792741552 947 - Texture 'data/conne1.bmp' loaded.
+1792741552 947 - Texture 'data/conne2.bmp' loaded.
+1792741552 947 - Texture 'data/conne3.bmp' loaded.
+1792741552 947 - Texture 'data/conne4.bmp' loaded.
+1792741552 947 - Texture 'data/conne5.bmp' loaded.
+1792741552 947 - Texture 'data/conne6.bmp' loaded.
+1792741552 947 - Texture 'data/dconne1.bmp' loaded.
+1792741552 947 - Texture 'data/dconne2.bmp' loaded.
+1792741552 947 - Texture 'data/dconne3.bmp' loaded.
+1792741552 947 - Texture 'data/dconne4.bmp' loaded.
+1792741552 947 - Texture 'data/dconne5.bmp' loaded.
+1792741552 947 - Texture 'data/dconne6.bmp' loaded.
+1792741552 947 - Texture 'data/connn1.bmp' loaded.
+1792741552 947 - Texture 'data/connn2.bmp' loaded.
+1792741552 947 - Texture 'data/connn3.bmp' loaded.
+1792741552 947 - Texture 'data/connn4.bmp' loaded.
+1792741552 947 - Texture 'data/connn5.bmp' loaded.
+1792741552 947 - Texture 'data/connn6.bmp' loaded.
+1792741552 947 - Texture 'data/dconnn1.bmp' loaded.
+1792741552 947 - Texture 'data/dconnn2.bmp' loaded.
+1792741552 947 - Texture 'data/dconnn3.bmp' loaded.
+1792741552 947 - Texture 'data/dconnn4.bmp' loaded.
+1792741552 947 - Texture 'data/dconnn5.bmp' loaded.
+1792741552 947 - Texture 'data/dconnn6.bmp' loaded.
+1792741552 947 - Texture 'data/connm1.bmp' loaded.
+1792741552 947 - Texture 'data/connm2.bmp' loaded.
+1792741552 947 - Texture 'data/connm3.bmp' loaded.
+1792741552 947 - Texture 'data/connm4.bmp' loaded.
+1792741552 947 - Texture 'data/connm5.bmp' loaded.
+1792741552 947 - Texture 'data/connm6.bmp' loaded.
+1792741552 947 - Texture 'data/dconnm1.bmp' loaded.
+1792741552 947 - Texture 'data/dconnm2.bmp' loaded.
+1792741552 947 - Texture 'data/dconnm3.bmp' loaded.
+1792741552 947 - Texture 'data/dconnm4.bmp' loaded.
+1792741552 947 - Texture 'data/dconnm5.bmp' loaded.
+1792741552 947 - Texture 'data/dconnm6.bmp' loaded.
+1792741552 947 - Texture 'data/connp1.bmp' loaded.
+1792741552 947 - Texture 'data/connp2.bmp' loaded.
+1792741552 947 - Texture 'data/connp3.bmp' loaded.
+1792741552 947 - Texture 'data/connp4.bmp' loaded.
+1792741552 947 - Texture 'data/connp5.bmp' loaded.
+1792741552 947 - Texture 'data/connp6.bmp' loaded.
+1792741552 947 - Texture 'data/dconnp1.bmp' loaded.
+1792741552 947 - Texture 'data/dconnp2.bmp' loaded.
+1792741552 947 - Texture 'data/dconnp3.bmp' loaded.
+1792741552 947 - Texture 'data/dconnp4.bmp' loaded.
+1792741552 947 - Texture 'data/dconnp5.bmp' loaded.
+1792741552 947 - Texture 'data/dconnp6.bmp' loaded.
+1792741552 947 - Texture 'data/heart.bmp' loaded.
+1792741552 947 - Texture 'data/speaker.bmp' loaded.
+1792741552 947 - Texture 'data/speakeroff.bmp' loaded.
+1792741552 947 - Texture 'data/bncconn.bmp' loaded.
+1792741552 947 - Texture 'data/bncconnhigh.bmp' loaded.
+1792741552 947 - Texture 'data/rtimer.bmp' loaded.
+1792741552 947 - Texture 'data/rtimerhigh.bmp' loaded.
+1792741552 947 - Texture 'data/devbrd.bmp' loaded.
+1792741552 947 - Texture 'data/devbrdhigh.bmp' loaded.
+1792741552 947 - Texture 'data/okbtn.bmp' loaded.
+1792741552 947 - Texture 'data/okbtnhigh.bmp' loaded.
+1792741552 947 - Texture 'data/trigger.bmp' loaded.
+1792741552 947 - Texture 'data/triggerhigh.bmp' loaded.
+1792741552 947 - Texture 'data/e1.bmp' loaded.
+1792741552 947 - Texture 'data/e2.bmp' loaded.
+1792741552 947 - Texture 'data/e3.bmp' loaded.
+1792741552 947 - Texture 'data/e4.bmp' loaded.
+1792741552 947 - Texture 'data/e5.bmp' loaded.
+1792741552 947 - Texture 'data/e6.bmp' loaded.
+1792741552 947 - Texture 'data/e7.bmp' loaded.
+1792741552 947 - Texture 'data/e8.bmp' loaded.
+1792741552 947 - Texture 'data/e9.bmp' loaded.
+1792741552 947 - Texture 'data/e10.bmp' loaded.
+1792741552 947 - Texture 'data/analysiscrossed.bmp' loaded.
+1792741552 947 - Texture 'data/fftcrossed.bmp' loaded.
+1792741552 947 - Texture 'data/threshcrossed.bmp' loaded.
+1792741552 947 - Texture 'data/configcrossed.bmp' loaded.
+1792741552 947 - Texture 'data/calibratebtn-high.bmp' loaded.
+1792741552 947 - Texture 'data/cancel-high.bmp' loaded.
+1792741552 947 - Texture 'data/calibratebtn-normal.bmp' loaded.
+1792741552 947 - Texture 'data/cancel-normal.bmp' loaded.
+1792741552 947 - Texture 'data/okbtn-normal.bmp' loaded.
+1792741552 947 - Texture 'data/okbtn-high.bmp' loaded.
+1792741552 947 - Texture 'data/p300normal.bmp' loaded.
+1792741552 947 - Texture 'data/p300high.bmp' loaded.
+1792741552 947 - Texture 'data/p300selected.bmp' loaded.
+1792741552 947 - Texture 'data/p300audio-normal.bmp' loaded.
+1792741552 947 - Texture 'data/p300audio-high.bmp' loaded.
+1792741552 947 - Texture 'data/p300audio-selected.bmp' loaded.
+1792741552 947 - Texture 'data/preset-neuron.bmp' loaded.
+1792741552 947 - Texture 'data/preset-plant.bmp' loaded.
+1792741552 947 - Texture 'data/preset-eeg.bmp' loaded.
+1792741552 947 - Texture 'data/preset-ecg.bmp' loaded.
+1792741552 947 - Texture 'data/preset-emg.bmp' loaded.
+1792741552 947 - Texture 'data/preset-neuron-high.bmp' loaded.
+1792741552 947 - Texture 'data/preset-plant-high.bmp' loaded.
+1792741552 947 - Texture 'data/preset-eeg-high.bmp' loaded.
+1792741552 947 - Texture 'data/preset-ecg-high.bmp' loaded.
+1792741552 947 - Texture 'data/preset-emg-high.bmp' loaded.
+1792741552 947 - Creating Window...
+1792741553 341 - Starting GUI...
+1792741553 649 - 
 New cycle in serial scanning thread ---------------------------------
-1792740893 579 - checkAllPortsForArduino - Check for Arduino boards!
-1792740893 579 - Start enumerateSerialPortsFriendlyNames
-1792740893 580 - End enumerateSerialPortsFriendlyNames
-1792740893 580 - checkAllPortsForArduino Before lock
-1792740893 580 - checkAllPortsForArduino After lock
-1792740893 580 - checkAllPortsForArduino relaese lock
-1792740894 281 - 
+1792741553 649 - checkAllPortsForArduino - Check for Arduino boards!
+1792741553 649 - Start enumerateSerialPortsFriendlyNames
+1792741553 649 - End enumerateSerialPortsFriendlyNames
+1792741553 649 - checkAllPortsForArduino Before lock
+1792741553 649 - checkAllPortsForArduino After lock
+1792741553 649 - checkAllPortsForArduino relaese lock
+1792741554 350 - 
 New cycle in serial scanning thread ---------------------------------
-1792740894 281 - checkAllPortsForArduino - Check for Arduino boards!
-1792740894 281 - Start enumerateSerialPortsFriendlyNames
-1792740894 281 - End enumerateSerialPortsFriendlyNames
-1792740894 281 - checkAllPortsForArduino Before lock
-1792740894 281 - checkAllPortsForArduino After lock
-1792740894 281 - checkAllPortsForArduino relaese lock
-1792740894 982 - 
+1792741554 350 - checkAllPortsForArduino - Check for Arduino boards!
+1792741554 350 - Start enumerateSerialPortsFriendlyNames
+1792741554 350 - End enumerateSerialPortsFriendlyNames
+1792741554 350 - checkAllPortsForArduino Before lock
+1792741554 350 - checkAllPortsForArduino After lock
+1792741554 350 - checkAllPortsForArduino relaese lock
+1792741555 51 - 
 New cycle in serial scanning thread ---------------------------------
-1792740894 982 - checkAllPortsForArduino - Check for Arduino boards!
-1792740894 982 - Start enumerateSerialPortsFriendlyNames
-1792740894 983 - End enumerateSerialPortsFriendlyNames
-1792740894 983 - checkAllPortsForArduino Before lock
-1792740894 983 - checkAllPortsForArduino After lock
-1792740894 983 - checkAllPortsForArduino relaese lock
-1792740895 684 - 
+1792741555 51 - checkAllPortsForArduino - Check for Arduino boards!
+1792741555 51 - Start enumerateSerialPortsFriendlyNames
+1792741555 51 - End enumerateSerialPortsFriendlyNames
+1792741555 51 - checkAllPortsForArduino Before lock
+1792741555 51 - checkAllPortsForArduino After lock
+1792741555 51 - checkAllPortsForArduino relaese lock
+1792741555 752 - 
 New cycle in serial scanning thread ---------------------------------
-1792740895 684 - checkAllPortsForArduino - Check for Arduino boards!
-1792740895 684 - Start enumerateSerialPortsFriendlyNames
-1792740895 684 - End enumerateSerialPortsFriendlyNames
-1792740895 684 - checkAllPortsForArduino Before lock
-1792740895 684 - checkAllPortsForArduino After lock
-1792740895 684 - checkAllPortsForArduino relaese lock
-1792740896 385 - 
+1792741555 752 - checkAllPortsForArduino - Check for Arduino boards!
+1792741555 752 - Start enumerateSerialPortsFriendlyNames
+1792741555 752 - End enumerateSerialPortsFriendlyNames
+1792741555 752 - checkAllPortsForArduino Before lock
+1792741555 752 - checkAllPortsForArduino After lock
+1792741555 752 - checkAllPortsForArduino relaese lock
+1792741556 452 - 
 New cycle in serial scanning thread ---------------------------------
-1792740896 385 - checkAllPortsForArduino - Check for Arduino boards!
-1792740896 385 - Start enumerateSerialPortsFriendlyNames
-1792740896 385 - End enumerateSerialPortsFriendlyNames
-1792740896 385 - checkAllPortsForArduino Before lock
-1792740896 385 - checkAllPortsForArduino After lock
-1792740896 385 - checkAllPortsForArduino relaese lock
-1792740897 87 - 
+1792741556 452 - checkAllPortsForArduino - Check for Arduino boards!
+1792741556 452 - Start enumerateSerialPortsFriendlyNames
+1792741556 452 - End enumerateSerialPortsFriendlyNames
+1792741556 452 - checkAllPortsForArduino Before lock
+1792741556 452 - checkAllPortsForArduino After lock
+1792741556 452 - checkAllPortsForArduino relaese lock
+1792741557 153 - 
 New cycle in serial scanning thread ---------------------------------
-1792740897 87 - checkAllPortsForArduino - Check for Arduino boards!
-1792740897 87 - Start enumerateSerialPortsFriendlyNames
-1792740897 87 - End enumerateSerialPortsFriendlyNames
-1792740897 87 - checkAllPortsForArduino Before lock
-1792740897 87 - checkAllPortsForArduino After lock
-1792740897 87 - checkAllPortsForArduino relaese lock
-1792740897 787 - 
-New cycle in serial scanning thread ---------------------------------
-1792740897 787 - checkAllPortsForArduino - Check for Arduino boards!
-1792740897 787 - Start enumerateSerialPortsFriendlyNames
-1792740897 787 - End enumerateSerialPortsFriendlyNames
-1792740897 787 - checkAllPortsForArduino Before lock
-1792740897 787 - checkAllPortsForArduino After lock
-1792740897 787 - checkAllPortsForArduino relaese lock
-1792740898 488 - 
-New cycle in serial scanning thread ---------------------------------
-1792740898 488 - checkAllPortsForArduino - Check for Arduino boards!
-1792740898 488 - Start enumerateSerialPortsFriendlyNames
-1792740898 488 - End enumerateSerialPortsFriendlyNames
-1792740898 488 - checkAllPortsForArduino Before lock
-1792740898 488 - checkAllPortsForArduino After lock
-1792740898 488 - checkAllPortsForArduino relaese lock
-1792740899 189 - 
-New cycle in serial scanning thread ---------------------------------
-1792740899 189 - checkAllPortsForArduino - Check for Arduino boards!
-1792740899 189 - Start enumerateSerialPortsFriendlyNames
-1792740899 189 - End enumerateSerialPortsFriendlyNames
-1792740899 189 - checkAllPortsForArduino Before lock
-1792740899 189 - checkAllPortsForArduino After lock
-1792740899 189 - checkAllPortsForArduino relaese lock
-1792740899 890 - 
-New cycle in serial scanning thread ---------------------------------
-1792740899 890 - checkAllPortsForArduino - Check for Arduino boards!
-1792740899 890 - Start enumerateSerialPortsFriendlyNames
-1792740899 890 - End enumerateSerialPortsFriendlyNames
-1792740899 890 - checkAllPortsForArduino Before lock
-1792740899 890 - checkAllPortsForArduino After lock
-1792740899 890 - checkAllPortsForArduino relaese lock
-1792740900 592 - 
-New cycle in serial scanning thread ---------------------------------
-1792740900 592 - checkAllPortsForArduino - Check for Arduino boards!
-1792740900 592 - Start enumerateSerialPortsFriendlyNames
-1792740900 592 - End enumerateSerialPortsFriendlyNames
-1792740900 592 - checkAllPortsForArduino Before lock
-1792740900 592 - checkAllPortsForArduino After lock
-1792740900 592 - checkAllPortsForArduino relaese lock
-1792740901 293 - 
-New cycle in serial scanning thread ---------------------------------
-1792740901 293 - checkAllPortsForArduino - Check for Arduino boards!
-1792740901 293 - Start enumerateSerialPortsFriendlyNames
-1792740901 293 - End enumerateSerialPortsFriendlyNames
-1792740901 293 - checkAllPortsForArduino Before lock
-1792740901 293 - checkAllPortsForArduino After lock
-1792740901 293 - checkAllPortsForArduino relaese lock
-1792740901 994 - 
-New cycle in serial scanning thread ---------------------------------
-1792740901 994 - checkAllPortsForArduino - Check for Arduino boards!
-1792740901 994 - Start enumerateSerialPortsFriendlyNames
-1792740901 994 - End enumerateSerialPortsFriendlyNames
-1792740901 994 - checkAllPortsForArduino Before lock
-1792740901 994 - checkAllPortsForArduino After lock
-1792740901 994 - checkAllPortsForArduino relaese lock
-1792740902 311 - Config pressed, refresh serial port...
-1792740902 311 - Create config view...
-1792740902 311 - Create close button...
-1792740902 311 - Create top label...
-1792740902 311 - Make colors
-1792740902 311 - Access virtual devices
-1792740902 311 - Make box layout
-1792740902 311 - Check file mode
-1792740902 311 - Make mute checkbox
-1792740902 311 - Check state for mute checkbox
-1792740902 311 - Add mute label to box
-1792740902 311 - Add mute checkbox
-1792740902 311 - Add layout for mute checkbox
-1792740902 311 - Check file mode 2
-1792740902 311 - Add filter label
-1792740902 311 - Create text inputs
-1792740902 311 - Create range selector
-1792740902 311 - Set parameters on range selector
-1792740902 311 - Connect range selector
-1792740902 311 - Update values range selector
-1792740902 311 - Create label for range boxes
-1792740902 311 - Add filter labels to label boxes
-1792740902 311 - Add layout label box
-1792740902 311 - Add components to value box
-1792740902 311 - Add components ro gvbox
-1792740902 311 - Check file mode 3
-1792740902 311 - Create filterbox
-1792740902 311 - Create filter label for notch
-1792740902 311 - Create 50Hz label
-1792740902 311 - Create 60Hz label
-1792740902 311 - Create 50 hz push button
-1792740902 311 - 50 hz disabled
-1792740902 311 - Wire up 50 hz
-1792740902 311 - Create 60 hz filter button
-1792740902 311 - 60 Hz disabled
-1792740902 311 - Wire up 60 Hz
-1792740902 311 - Add components to filter box
-1792740902 311 - 50 Hz components
-1792740902 311 - 60 hz components
-1792740902 311 - Add filter box to gvbox
-1792740902 311 - Color chooser start -------
-1792740902 311 - Create dropdown
-1792740902 311 - Signal catcher
-1792740902 311 - Create label
-1792740902 311 - get name of virtual device
-1792740902 311 - Create box layout for color chooser
-1792740902 311 - Add to gvbox
-1792740902 311 - Create dropdown
-1792740902 311 - Signal catcher
-1792740902 311 - Create label
-1792740902 311 - get name of virtual device
-1792740902 311 - Create box layout for color chooser
-1792740902 311 - Add to gvbox
-1792740902 311 - Set selection
-1792740902 311 - Set selection n
-1792740902 311 - Color changed
-1792740902 311 - else else
-1792740902 311 - Set selection 4 - before serial
-1792740902 311 - Create label
-1792740902 311 - Add widget label
-1792740902 311 - Create box layout
-1792740902 311 - Create dropdown
-1792740902 311 - Clear serial
-1792740902 311 - Get list of serials
-1792740902 311 - Set selection serial
-1792740902 311 - Wire up serial
-1792740902 311 - Set disabled enabled
-1792740902 311 - Add widget serial port
-1792740902 311 - Create button for connect to serial
-1792740902 311 - Set size for button
-1792740902 311 - Add button to serial H box
-1792740902 311 - Add to gvbox
-1792740902 311 - Check if in serial mode for Num. ch. dropdown
-1792740902 311 - Check HID mode
-1792740902 311 - End in file mode
-1792740902 311 - Update layout for gv box
-1792740902 311 - Create vbox and hbox
-1792740902 311 - Add close button
-1792740902 311 - Add top label
-1792740902 311 - Add hbox
-1792740902 311 - Add group
-1792740902 311 - End function
-1792740902 311 - Set mouse track...
-1792740902 311 - Add Config Window...
-1792740902 695 - 
-New cycle in serial scanning thread ---------------------------------
-1792740902 695 - checkAllPortsForArduino - Check for Arduino boards!
-1792740902 695 - Start enumerateSerialPortsFriendlyNames
-1792740902 695 - End enumerateSerialPortsFriendlyNames
-1792740902 695 - checkAllPortsForArduino Before lock
-1792740902 695 - checkAllPortsForArduino After lock
-1792740902 695 - checkAllPortsForArduino relaese lock
-1792740903 397 - 
-New cycle in serial scanning thread ---------------------------------
-1792740903 397 - checkAllPortsForArduino - Check for Arduino boards!
-1792740903 397 - Start enumerateSerialPortsFriendlyNames
-1792740903 397 - End enumerateSerialPortsFriendlyNames
-1792740903 397 - checkAllPortsForArduino Before lock
-1792740903 397 - checkAllPortsForArduino After lock
-1792740903 397 - checkAllPortsForArduino relaese lock
-1792740904 97 - 
-New cycle in serial scanning thread ---------------------------------
-1792740904 97 - checkAllPortsForArduino - Check for Arduino boards!
-1792740904 97 - Start enumerateSerialPortsFriendlyNames
-1792740904 97 - End enumerateSerialPortsFriendlyNames
-1792740904 97 - checkAllPortsForArduino Before lock
-1792740904 97 - checkAllPortsForArduino After lock
-1792740904 97 - checkAllPortsForArduino relaese lock
-1792740904 798 - 
-New cycle in serial scanning thread ---------------------------------
-1792740904 798 - checkAllPortsForArduino - Check for Arduino boards!
-1792740904 798 - Start enumerateSerialPortsFriendlyNames
-1792740904 798 - End enumerateSerialPortsFriendlyNames
-1792740904 798 - checkAllPortsForArduino Before lock
-1792740904 798 - checkAllPortsForArduino After lock
-1792740904 798 - checkAllPortsForArduino relaese lock
-1792740905 499 - 
-New cycle in serial scanning thread ---------------------------------
-1792740905 499 - checkAllPortsForArduino - Check for Arduino boards!
-1792740905 499 - Start enumerateSerialPortsFriendlyNames
-1792740905 499 - End enumerateSerialPortsFriendlyNames
-1792740905 499 - checkAllPortsForArduino Before lock
-1792740905 499 - checkAllPortsForArduino After lock
-1792740905 499 - checkAllPortsForArduino relaese lock
-1792740906 201 - 
-New cycle in serial scanning thread ---------------------------------
-1792740906 201 - checkAllPortsForArduino - Check for Arduino boards!
-1792740906 201 - Start enumerateSerialPortsFriendlyNames
-1792740906 201 - End enumerateSerialPortsFriendlyNames
-1792740906 201 - checkAllPortsForArduino Before lock
-1792740906 201 - checkAllPortsForArduino After lock
-1792740906 201 - checkAllPortsForArduino relaese lock
-1792740906 902 - 
-New cycle in serial scanning thread ---------------------------------
-1792740906 902 - checkAllPortsForArduino - Check for Arduino boards!
-1792740906 902 - Start enumerateSerialPortsFriendlyNames
-1792740906 902 - End enumerateSerialPortsFriendlyNames
-1792740906 902 - checkAllPortsForArduino Before lock
-1792740906 902 - checkAllPortsForArduino After lock
-1792740906 902 - checkAllPortsForArduino relaese lock
-1792740907 602 - 
-New cycle in serial scanning thread ---------------------------------
-1792740907 602 - checkAllPortsForArduino - Check for Arduino boards!
-1792740907 602 - Start enumerateSerialPortsFriendlyNames
-1792740907 603 - End enumerateSerialPortsFriendlyNames
-1792740907 603 - checkAllPortsForArduino Before lock
-1792740907 603 - checkAllPortsForArduino After lock
-1792740907 603 - checkAllPortsForArduino relaese lock
-1792740908 303 - 
-New cycle in serial scanning thread ---------------------------------
-1792740908 303 - checkAllPortsForArduino - Check for Arduino boards!
-1792740908 303 - Start enumerateSerialPortsFriendlyNames
-1792740908 303 - End enumerateSerialPortsFriendlyNames
-1792740908 303 - checkAllPortsForArduino Before lock
-1792740908 303 - checkAllPortsForArduino After lock
-1792740908 303 - checkAllPortsForArduino relaese lock
-1792740909 4 - 
-New cycle in serial scanning thread ---------------------------------
-1792740909 4 - checkAllPortsForArduino - Check for Arduino boards!
-1792740909 4 - Start enumerateSerialPortsFriendlyNames
-1792740909 4 - End enumerateSerialPortsFriendlyNames
-1792740909 4 - checkAllPortsForArduino Before lock
-1792740909 4 - checkAllPortsForArduino After lock
-1792740909 4 - checkAllPortsForArduino relaese lock
-1792740909 705 - 
-New cycle in serial scanning thread ---------------------------------
-1792740909 705 - checkAllPortsForArduino - Check for Arduino boards!
-1792740909 705 - Start enumerateSerialPortsFriendlyNames
-1792740909 705 - End enumerateSerialPortsFriendlyNames
-1792740909 705 - checkAllPortsForArduino Before lock
-1792740909 705 - checkAllPortsForArduino After lock
-1792740909 705 - checkAllPortsForArduino relaese lock
-1792740910 406 - 
-New cycle in serial scanning thread ---------------------------------
-1792740910 406 - checkAllPortsForArduino - Check for Arduino boards!
-1792740910 406 - Start enumerateSerialPortsFriendlyNames
-1792740910 406 - End enumerateSerialPortsFriendlyNames
-1792740910 406 - checkAllPortsForArduino Before lock
-1792740910 406 - checkAllPortsForArduino After lock
-1792740910 406 - checkAllPortsForArduino relaese lock
-1792740911 106 - 
-New cycle in serial scanning thread ---------------------------------
-1792740911 106 - checkAllPortsForArduino - Check for Arduino boards!
-1792740911 106 - Start enumerateSerialPortsFriendlyNames
-1792740911 106 - End enumerateSerialPortsFriendlyNames
-1792740911 106 - checkAllPortsForArduino Before lock
-1792740911 106 - checkAllPortsForArduino After lock
-1792740911 106 - checkAllPortsForArduino relaese lock
-1792740911 807 - 
-New cycle in serial scanning thread ---------------------------------
-1792740911 807 - checkAllPortsForArduino - Check for Arduino boards!
-1792740911 807 - Start enumerateSerialPortsFriendlyNames
-1792740911 807 - End enumerateSerialPortsFriendlyNames
-1792740911 807 - checkAllPortsForArduino Before lock
-1792740911 807 - checkAllPortsForArduino After lock
-1792740911 807 - checkAllPortsForArduino relaese lock
-1792740912 508 - 
-New cycle in serial scanning thread ---------------------------------
-1792740912 508 - checkAllPortsForArduino - Check for Arduino boards!
-1792740912 508 - Start enumerateSerialPortsFriendlyNames
-1792740912 508 - End enumerateSerialPortsFriendlyNames
-1792740912 508 - checkAllPortsForArduino Before lock
-1792740912 508 - checkAllPortsForArduino After lock
-1792740912 508 - checkAllPortsForArduino relaese lock
-1792740912 776 - Close pressed
-1792740913 210 - 
-New cycle in serial scanning thread ---------------------------------
-1792740913 210 - checkAllPortsForArduino - Check for Arduino boards!
-1792740913 210 - Start enumerateSerialPortsFriendlyNames
-1792740913 210 - End enumerateSerialPortsFriendlyNames
-1792740913 210 - checkAllPortsForArduino Before lock
-1792740913 210 - checkAllPortsForArduino After lock
-1792740913 210 - checkAllPortsForArduino relaese lock
-1792740913 910 - 
-New cycle in serial scanning thread ---------------------------------
-1792740913 910 - checkAllPortsForArduino - Check for Arduino boards!
-1792740913 910 - Start enumerateSerialPortsFriendlyNames
-1792740913 910 - End enumerateSerialPortsFriendlyNames
-1792740913 910 - checkAllPortsForArduino Before lock
-1792740913 910 - checkAllPortsForArduino After lock
-1792740913 910 - checkAllPortsForArduino relaese lock
-1792740914 612 - 
-New cycle in serial scanning thread ---------------------------------
-1792740914 612 - checkAllPortsForArduino - Check for Arduino boards!
-1792740914 612 - Start enumerateSerialPortsFriendlyNames
-1792740914 612 - End enumerateSerialPortsFriendlyNames
-1792740914 612 - checkAllPortsForArduino Before lock
-1792740914 612 - checkAllPortsForArduino After lock
-1792740914 612 - checkAllPortsForArduino relaese lock
-1792740915 312 - 
-New cycle in serial scanning thread ---------------------------------
-1792740915 312 - checkAllPortsForArduino - Check for Arduino boards!
-1792740915 312 - Start enumerateSerialPortsFriendlyNames
-1792740915 312 - End enumerateSerialPortsFriendlyNames
-1792740915 312 - checkAllPortsForArduino Before lock
-1792740915 312 - checkAllPortsForArduino After lock
-1792740915 312 - checkAllPortsForArduino relaese lock
-1792740916 13 - 
-New cycle in serial scanning thread ---------------------------------
-1792740916 13 - checkAllPortsForArduino - Check for Arduino boards!
-1792740916 13 - Start enumerateSerialPortsFriendlyNames
-1792740916 13 - End enumerateSerialPortsFriendlyNames
-1792740916 13 - checkAllPortsForArduino Before lock
-1792740916 13 - checkAllPortsForArduino After lock
-1792740916 13 - checkAllPortsForArduino relaese lock
-1792740916 714 - 
-New cycle in serial scanning thread ---------------------------------
-1792740916 714 - checkAllPortsForArduino - Check for Arduino boards!
-1792740916 714 - Start enumerateSerialPortsFriendlyNames
-1792740916 714 - End enumerateSerialPortsFriendlyNames
-1792740916 714 - checkAllPortsForArduino Before lock
-1792740916 714 - checkAllPortsForArduino After lock
-1792740916 714 - checkAllPortsForArduino relaese lock
-1792740917 415 - 
-New cycle in serial scanning thread ---------------------------------
-1792740917 415 - checkAllPortsForArduino - Check for Arduino boards!
-1792740917 415 - Start enumerateSerialPortsFriendlyNames
-1792740917 415 - End enumerateSerialPortsFriendlyNames
-1792740917 415 - checkAllPortsForArduino Before lock
-1792740917 415 - checkAllPortsForArduino After lock
-1792740917 415 - checkAllPortsForArduino relaese lock
-1792740918 116 - 
-New cycle in serial scanning thread ---------------------------------
-1792740918 116 - checkAllPortsForArduino - Check for Arduino boards!
-1792740918 116 - Start enumerateSerialPortsFriendlyNames
-1792740918 116 - End enumerateSerialPortsFriendlyNames
-1792740918 116 - checkAllPortsForArduino Before lock
-1792740918 116 - checkAllPortsForArduino After lock
-1792740918 116 - checkAllPortsForArduino relaese lock
-1792740918 816 - 
-New cycle in serial scanning thread ---------------------------------
-1792740918 816 - checkAllPortsForArduino - Check for Arduino boards!
-1792740918 816 - Start enumerateSerialPortsFriendlyNames
-1792740918 816 - End enumerateSerialPortsFriendlyNames
-1792740918 816 - checkAllPortsForArduino Before lock
-1792740918 816 - checkAllPortsForArduino After lock
-1792740918 816 - checkAllPortsForArduino relaese lock
-1792740919 517 - 
-New cycle in serial scanning thread ---------------------------------
-1792740919 517 - checkAllPortsForArduino - Check for Arduino boards!
-1792740919 517 - Start enumerateSerialPortsFriendlyNames
-1792740919 517 - End enumerateSerialPortsFriendlyNames
-1792740919 517 - checkAllPortsForArduino Before lock
-1792740919 517 - checkAllPortsForArduino After lock
-1792740919 517 - checkAllPortsForArduino relaese lock
-1792740920 218 - 
-New cycle in serial scanning thread ---------------------------------
-1792740920 218 - checkAllPortsForArduino - Check for Arduino boards!
-1792740920 218 - Start enumerateSerialPortsFriendlyNames
-1792740920 218 - End enumerateSerialPortsFriendlyNames
-1792740920 218 - checkAllPortsForArduino Before lock
-1792740920 218 - checkAllPortsForArduino After lock
-1792740920 218 - checkAllPortsForArduino relaese lock
-1792740920 919 - 
-New cycle in serial scanning thread ---------------------------------
-1792740920 919 - checkAllPortsForArduino - Check for Arduino boards!
-1792740920 919 - Start enumerateSerialPortsFriendlyNames
-1792740920 919 - End enumerateSerialPortsFriendlyNames
-1792740920 919 - checkAllPortsForArduino Before lock
-1792740920 919 - checkAllPortsForArduino After lock
-1792740920 919 - checkAllPortsForArduino relaese lock
-1792740921 621 - 
-New cycle in serial scanning thread ---------------------------------
-1792740921 621 - checkAllPortsForArduino - Check for Arduino boards!
-1792740921 621 - Start enumerateSerialPortsFriendlyNames
-1792740921 621 - End enumerateSerialPortsFriendlyNames
-1792740921 621 - checkAllPortsForArduino Before lock
-1792740921 621 - checkAllPortsForArduino After lock
-1792740921 621 - checkAllPortsForArduino relaese lock
-1792740922 322 - 
-New cycle in serial scanning thread ---------------------------------
-1792740922 322 - checkAllPortsForArduino - Check for Arduino boards!
-1792740922 322 - Start enumerateSerialPortsFriendlyNames
-1792740922 322 - End enumerateSerialPortsFriendlyNames
-1792740922 322 - checkAllPortsForArduino Before lock
-1792740922 322 - checkAllPortsForArduino After lock
-1792740922 322 - checkAllPortsForArduino relaese lock
-1792740923 23 - 
-New cycle in serial scanning thread ---------------------------------
-1792740923 23 - checkAllPortsForArduino - Check for Arduino boards!
-1792740923 23 - Start enumerateSerialPortsFriendlyNames
-1792740923 23 - End enumerateSerialPortsFriendlyNames
-1792740923 23 - checkAllPortsForArduino Before lock
-1792740923 23 - checkAllPortsForArduino After lock
-1792740923 23 - checkAllPortsForArduino relaese lock
-1792740923 724 - 
-New cycle in serial scanning thread ---------------------------------
-1792740923 724 - checkAllPortsForArduino - Check for Arduino boards!
-1792740923 724 - Start enumerateSerialPortsFriendlyNames
-1792740923 724 - End enumerateSerialPortsFriendlyNames
-1792740923 724 - checkAllPortsForArduino Before lock
-1792740923 724 - checkAllPortsForArduino After lock
-1792740923 724 - checkAllPortsForArduino relaese lock
-1792740924 425 - 
-New cycle in serial scanning thread ---------------------------------
-1792740924 425 - checkAllPortsForArduino - Check for Arduino boards!
-1792740924 425 - Start enumerateSerialPortsFriendlyNames
-1792740924 425 - End enumerateSerialPortsFriendlyNames
-1792740924 425 - checkAllPortsForArduino Before lock
-1792740924 425 - checkAllPortsForArduino After lock
-1792740924 425 - checkAllPortsForArduino relaese lock
-1792740925 126 - 
-New cycle in serial scanning thread ---------------------------------
-1792740925 126 - checkAllPortsForArduino - Check for Arduino boards!
-1792740925 126 - Start enumerateSerialPortsFriendlyNames
-1792740925 126 - End enumerateSerialPortsFriendlyNames
-1792740925 126 - checkAllPortsForArduino Before lock
-1792740925 126 - checkAllPortsForArduino After lock
-1792740925 126 - checkAllPortsForArduino relaese lock
-1792740925 826 - 
-New cycle in serial scanning thread ---------------------------------
-1792740925 826 - checkAllPortsForArduino - Check for Arduino boards!
-1792740925 826 - Start enumerateSerialPortsFriendlyNames
-1792740925 826 - End enumerateSerialPortsFriendlyNames
-1792740925 826 - checkAllPortsForArduino Before lock
-1792740925 826 - checkAllPortsForArduino After lock
-1792740925 826 - checkAllPortsForArduino relaese lock
-1792740926 527 - 
-New cycle in serial scanning thread ---------------------------------
-1792740926 527 - checkAllPortsForArduino - Check for Arduino boards!
-1792740926 527 - Start enumerateSerialPortsFriendlyNames
-1792740926 527 - End enumerateSerialPortsFriendlyNames
-1792740926 527 - checkAllPortsForArduino Before lock
-1792740926 527 - checkAllPortsForArduino After lock
-1792740926 527 - checkAllPortsForArduino relaese lock
-1792740927 228 - 
-New cycle in serial scanning thread ---------------------------------
-1792740927 228 - checkAllPortsForArduino - Check for Arduino boards!
-1792740927 228 - Start enumerateSerialPortsFriendlyNames
-1792740927 228 - End enumerateSerialPortsFriendlyNames
-1792740927 228 - checkAllPortsForArduino Before lock
-1792740927 228 - checkAllPortsForArduino After lock
-1792740927 228 - checkAllPortsForArduino relaese lock
-1792740927 929 - 
-New cycle in serial scanning thread ---------------------------------
-1792740927 929 - checkAllPortsForArduino - Check for Arduino boards!
-1792740927 929 - Start enumerateSerialPortsFriendlyNames
-1792740927 929 - End enumerateSerialPortsFriendlyNames
-1792740927 929 - checkAllPortsForArduino Before lock
-1792740927 929 - checkAllPortsForArduino After lock
-1792740927 929 - checkAllPortsForArduino relaese lock
-1792740928 630 - 
-New cycle in serial scanning thread ---------------------------------
-1792740928 630 - checkAllPortsForArduino - Check for Arduino boards!
-1792740928 630 - Start enumerateSerialPortsFriendlyNames
-1792740928 630 - End enumerateSerialPortsFriendlyNames
-1792740928 630 - checkAllPortsForArduino Before lock
-1792740928 630 - checkAllPortsForArduino After lock
-1792740928 630 - checkAllPortsForArduino relaese lock
-1792740929 332 - 
-New cycle in serial scanning thread ---------------------------------
-1792740929 332 - checkAllPortsForArduino - Check for Arduino boards!
-1792740929 332 - Start enumerateSerialPortsFriendlyNames
-1792740929 332 - End enumerateSerialPortsFriendlyNames
-1792740929 332 - checkAllPortsForArduino Before lock
-1792740929 332 - checkAllPortsForArduino After lock
-1792740929 332 - checkAllPortsForArduino relaese lock
-1792740930 33 - 
-New cycle in serial scanning thread ---------------------------------
-1792740930 33 - checkAllPortsForArduino - Check for Arduino boards!
-1792740930 33 - Start enumerateSerialPortsFriendlyNames
-1792740930 33 - End enumerateSerialPortsFriendlyNames
-1792740930 33 - checkAllPortsForArduino Before lock
-1792740930 33 - checkAllPortsForArduino After lock
-1792740930 33 - checkAllPortsForArduino relaese lock
-1792740930 734 - 
-New cycle in serial scanning thread ---------------------------------
-1792740930 734 - checkAllPortsForArduino - Check for Arduino boards!
-1792740930 734 - Start enumerateSerialPortsFriendlyNames
-1792740930 734 - End enumerateSerialPortsFriendlyNames
-1792740930 734 - checkAllPortsForArduino Before lock
-1792740930 734 - checkAllPortsForArduino After lock
-1792740930 734 - checkAllPortsForArduino relaese lock
-1792740931 435 - 
-New cycle in serial scanning thread ---------------------------------
-1792740931 435 - checkAllPortsForArduino - Check for Arduino boards!
-1792740931 435 - Start enumerateSerialPortsFriendlyNames
-1792740931 435 - End enumerateSerialPortsFriendlyNames
-1792740931 435 - checkAllPortsForArduino Before lock
-1792740931 435 - checkAllPortsForArduino After lock
-1792740931 435 - checkAllPortsForArduino relaese lock
-1792740932 136 - 
-New cycle in serial scanning thread ---------------------------------
-1792740932 136 - checkAllPortsForArduino - Check for Arduino boards!
-1792740932 136 - Start enumerateSerialPortsFriendlyNames
-1792740932 136 - End enumerateSerialPortsFriendlyNames
-1792740932 136 - checkAllPortsForArduino Before lock
-1792740932 136 - checkAllPortsForArduino After lock
-1792740932 136 - checkAllPortsForArduino relaese lock
-1792740932 665 - BYB SpikeRecorder exited normally.
-1792740932 665 - RecordingManager::Device - BASS disable 0 device
-1792740932 829 - libbass deinitialized.
-1792740932 837 - 
-New cycle in serial scanning thread ---------------------------------
-1792740932 837 - checkAllPortsForArduino - Check for Arduino boards!
-1792740932 837 - Start enumerateSerialPortsFriendlyNames
-1792740932 837 - End enumerateSerialPortsFriendlyNames
-1792740932 837 - checkAllPortsForArduino Before lock
-1792740932 837 - checkAllPortsForArduino After lock
-1792740932 837 - checkAllPortsForArduino relaese lock
-1792740932 869 - GUI closed.
+1792741557 153 - checkAllPortsForArduino - Check for Arduino boards!
+1792741557 153 - Start enumerateSerialPortsFriendlyNames
+1792741557 153 - End enumerateSerialPortsFriendlyNames
+1792741557 153 - checkAllPortsForArduino Before lock
+1792741557 153 - checkAllPortsForArduino After lock
+1792741557 153 - checkAllPortsForArduino relaese lock
+1792741557 398 - BYB SpikeRecorder exited normally.
+1792741557 398 - RecordingManager::Device - BASS disable 0 device
+1792741557 574 - libbass deinitialized.
+1792741557 600 - GUI closed.
